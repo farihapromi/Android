@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentList">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/ivTopImage"
+            android:background="@drawable/unknown"
+            />
+    <TextView
+        android:layout_below="@+id/ivTopImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/tvLocalVent"
+        android:text="Recent Posts"
+        android:textStyle=""
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPosts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvLocalVent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="27dp"
+            android:layout_above="@+id/btnCOmpose"
+            android:layout_marginEnd="0dp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="24dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout"
+            android:backgroundTint="@color/light_blue"
+            android:text="New story"
+            android:id="@+id/btnCOmpose"
+            android:layout_gravity="right|bottom"
+            />
+    </RelativeLayout>
+
+\</FrameLayout>

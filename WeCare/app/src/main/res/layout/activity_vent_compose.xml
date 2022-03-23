@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:layout_centerHorizontal="true"
+        android:text="VENT FREE SPACE"
+        android:textSize="34sp"
+
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="343dp"
+        android:layout_height="395dp"
+        android:gravity="start"
+        android:id="@+id/edVent"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="100px"
+        android:layout_centerHorizontal="true"
+        android:hint="Use this space to vent out all emotions 🤯\n\nor just use it to organize your thoughts 📝"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:background="@drawable/button_layout"
+        android:backgroundTint="@color/light_blue"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/edVent"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:text="Send to Friends!"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="598dp" />
+</RelativeLayout>

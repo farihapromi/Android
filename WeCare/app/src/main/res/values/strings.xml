@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WeCareMain</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_comments">Comments</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_comments2">Comments2</string>
+    <string name="todo">todo</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string-array name="relaxationActivities">
+        <item>Vent Out Your Emotions</item>
+        <item>Breathe In The Relief</item>
+        <item>Paint Your Stress Away</item>
+        <item>Walk Alongside Nature</item>
+    </string-array>
+    <string-array name="rActivityDescriptions">
+        <item>Write down anything going on in your life— things you are worried about, the stressors weighing you down, or everything in between. Like magic, this calms your mind down and releases your negative thoughts.</item>
+        <item>By stopping to take a deep breath, your heart rate slows, and more oxygen enters your bloodstream. This communicates to your brain to relax. Taking a deep breath can improve the quality of your day.</item>
+        <item>Take out your paintbrush and let go of the problems troubling your mind. Unwind and find your groove; anyone can be an artist when they use their creativity! </item>
+        <item>Walking outside releases endorphins that stimulate relaxation and improve your mood! Enjoying the fresh air and nature is a moment in your day to relax and find gratitude. </item>
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/ivTopImage"
+            android:background="@drawable/unknown"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join a channel specific\nto your Specialty!"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/ivTopImage"
+            android:layout_marginTop="-15dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tvInfo"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/tvInfo"
+            android:id="@+id/rvPosts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@id/relaxActivitiesButton"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="0dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/relaxActivitiesButton"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_layout"
+        android:backgroundTint="@color/light_blue"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="48dp"
+        android:text="Relaxation Activities"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+         />
+    </RelativeLayout>
+</FrameLayout>

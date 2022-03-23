@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comments">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/ivTopImage"
+        android:background="@drawable/unknown"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPosts"
+        android:layout_below="@+id/ivTopImage"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/edComment"
+        android:layout_height="match_parent"
+/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edComment"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_above="@+id/btnCOmpose"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Add a Comment"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="#B7DEE7"
+        android:id="@+id/btnCOmpose"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

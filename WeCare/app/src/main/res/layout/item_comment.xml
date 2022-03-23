@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="40px">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/tvVentStory"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:id="@+id/ivProfilePicture"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAuthorName"
+        android:layout_toEndOf="@+id/ivProfilePicture"
+        android:text="Add author name"
+        android:layout_marginStart="40px"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCommentText"
+        android:layout_below="@+id/tvAuthorName"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/ivProfilePicture"
+        android:text="Add some text here"
+        android:layout_marginStart="40px"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
